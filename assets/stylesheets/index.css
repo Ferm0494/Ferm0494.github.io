@@ -1,75 +1,69 @@
-html{
-    height:100%;
+html {
+    height: 100%;
 }
 
-
-.bg-dark2{
-    height:30em;
+.bg-dark2 {
+    height: 30em;
     background-color: #353b48;
 }
 
-
-.bg-dark2:hover{
+.bg-dark2:hover {
     box-shadow: 0 0rem 3rem #dc3545 !important;
 }
 
-.header-container{
-    height:30em;
+.header-container {
+    height: 30em;
     background-image: linear-gradient(86deg, rgba(0, 0, 0, 0.51) 0%, rgba(0, 0, 0, 0.49) 35%, rgba(0, 0, 0, 0.56) 100%), url(./images/greta-farnedi-7BXqClUbbQA-unsplash\ 3.jpg);
-   background-size: cover;
-   background-position: center;
+    background-size: cover;
+    background-position: center;
 }
 
-.technos{
+.technos {
     width: 2.5em
 }
 
-.project{
-    height:28em;
+.project {
+    height: 28em;
 }
 
-footer{
+footer {
     background-color: #2f3640;
-    height:20em;
-}
-footer a{
-   color: #fff;
+    height: 20em;
 }
 
-footer a:hover{
-    text-decoration: none ;
+footer a {
+    color: #fff;
+}
+
+footer a:hover {
+    text-decoration: none;
     color: #dc3545;
 }
 
-
-@media (max-width: 575.98px) { 
-    .technos{
-        width: 1.5em;
+@media (max-width: 575.98px) {
+    .carousel-item>img {
+        height: 30em
     }
-    #rails{
-        width: 48px;
-        height: 48px;
+    .technos {
+        width: 2em;
     }
-
-    #node{
-        width:2.5em
+    #node {
+        height: 2.5em;
+        width: 2.5em
     }
-    .project{
-        height:20em
+    .project {
+        height: 20em
     }
-
-    .bg-dark2{
-        height: 50em
+    .bg-dark2 {
+        height: 60em
     }
-    .lead{
+    .lead {
         font-size: 1rem !important;
     }
-    
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
-.header-container{
-    height:40em;
+    .header-container {
+        height: 50em;
+    }
 }
-
- }
