@@ -42,7 +42,7 @@ footer a:hover {
 
 @media (max-width: 575.98px) {
     .carousel-item>img {
-        height: 30em
+        height: 30em;
     }
     .technos {
         width: 2em;
