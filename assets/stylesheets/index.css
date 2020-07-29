@@ -13,17 +13,21 @@ html {
 
 .header-container {
     height: 30em;
-    background-image: linear-gradient(86deg, rgba(0, 0, 0, 0.51) 0%, rgba(0, 0, 0, 0.49) 35%, rgba(0, 0, 0, 0.56) 100%), url(./images/greta-farnedi-7BXqClUbbQA-unsplash\ 3.jpg);
+    background-image: linear-gradient( 86deg, rgba(0, 0, 0, 0.51) 0%, rgba(0, 0, 0, 0.49) 35%, rgba(0, 0, 0, 0.56) 100%), url(./images/backg.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .technos {
-    width: 2.5em
+    width: 2.5em;
 }
 
 .project {
     height: 28em;
+}
+
+.my-h-75 {
+    height: 75%;
 }
 
 footer {
@@ -49,16 +53,19 @@ footer a:hover {
     }
     #node {
         height: 2.5em;
-        width: 2.5em
+        width: 2.5em;
     }
     .project {
-        height: 20em
+        height: 20em;
     }
     .bg-dark2 {
-        height: 60em
+        height: 60em;
     }
     .lead {
         font-size: 1rem !important;
+    }
+    .my-h-75 {
+        height: 100%;
     }
 }
 
