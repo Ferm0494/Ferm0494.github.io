@@ -25,6 +25,9 @@ html {
 .project {
     height: 28em;
 }
+.project-alien{
+    height: 28em;
+}
 
 .my-h-75 {
     height: 75%;
@@ -49,14 +52,18 @@ footer a:hover {
         height: 30em;
     }
     .technos {
-        width: 2em;
+        width: 2.5em;
+        height:2.5em;
     }
     #node {
         height: 2.5em;
-        width: 2.5em;
+        width: 3.5em;
     }
     .project {
         height: 20em;
+    }
+    .project-alien{
+        height: 32em
     }
     .bg-dark2 {
         height: 60em;
@@ -67,16 +74,30 @@ footer a:hover {
     .my-h-75 {
         height: 100%;
     }
+
+
 }
 
+    
+
 @media (min-width: 768px) and (max-width: 991.98px) {
+    .technos{
+        height:2em;
+        width:2em;
+    }
     .header-container {
         height: 50em;
     }
+
+
+  
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
     .project-container {
         height: 55em;
     }
+    
 }
+
+
